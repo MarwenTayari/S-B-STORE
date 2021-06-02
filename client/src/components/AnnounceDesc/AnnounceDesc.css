@@ -1,0 +1,150 @@
+.AnnounceDesc-div {
+    background-color : rgba(255, 255, 255,0.5) ;
+    max-width : 1100px ; 
+    margin : 35px auto 0 ; 
+    min-height : 100vh ; 
+    padding : 0.5em 1em ; 
+    font-family: 'Cabin', sans-serif;
+}
+
+.img-announceDesc {
+    height: 400px ; 
+    width: auto ;
+    border : 1px solid #808080 ; 
+    margin: 1em auto 0em;
+    display: block;
+    box-shadow: 5px 5px 8px hsl(0, 0%, 53%) ; 
+}
+
+.container-desc {
+    margin-top : 3em
+}
+
+.title-desc {
+    margin-bottom : 0; 
+    background-image: url('https://www.itl.cat/pngfile/big/42-429842_light-grey-background-wallpaper-light-grey-background-wallpaper.jpg'); 
+    border-bottom : 1px black solid ; 
+    padding : 0.25em 0.5em; 
+}
+
+.date-desc {
+    margin-top : 0 ; 
+}
+
+.location-desc {
+    float : right
+}
+
+.desc-announceDesc {
+    margin-top : 1em ; 
+    background-image: url('https://www.itl.cat/pngfile/big/42-429842_light-grey-background-wallpaper-light-grey-background-wallpaper.jpg'); 
+    padding : 0.2em 0.5em ; 
+}
+
+.price-desc {
+    display: inline-block
+}
+/*
+.price-location {
+    
+}
+*/
+.Seller-contact {
+    margin-right : 1em;
+    float : right
+}
+
+.seller-name {
+display : inline-block
+}
+
+.seller-phone {
+    display : inline-block
+}
+
+.seller-phone-div {
+    float : right
+}
+
+.comment-div {
+    margin-bottom : 3.5em;
+}
+
+.post-comment-btn {
+    float : right ; 
+    margin-top : 0 ; 
+    margin-bottom : 2em
+}
+
+.commenter {
+    color : #1a8cff ; 
+    margin-bottom : 0em ; 
+    margin-top : 0.5em ; 
+}
+
+.comment-span {
+    margin-left : 2em ; 
+    margin-bottom : 0.5em ; 
+    font-size : 14px ; 
+    display : block 
+}
+
+.comment-div-user {
+    background-color : #e6e6e6 ;
+    margin-top : 0.5em ; 
+    padding-left : 0.5em ; 
+    padding-bottom: 0.1em;
+    border-radius : 1em
+}
+
+.input-div-comment {
+    margin-top : 1em
+}
+
+.date-post-comment {
+    font-size : 0.75em ; 
+    color : #8c8c8c ; 
+    margin-left : 2em; 
+    margin-top: 0em
+}
+
+.comments-div {
+    width : 100% ; 
+    min-height : 80vh;
+    display : flex ; 
+    justify-content : center ; 
+    align-items : center ; 
+}
+
+.groupe-btn {
+    float : right ; 
+    padding-right: 0.75em ; 
+}
+
+@media screen and (max-width: 550px) {
+    .img-announceDesc  {
+        height: 350px ; 
+        width: auto ;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .img-announceDesc  {
+        height: 250px ; 
+        width: auto ;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .img-announceDesc  {
+        height: 200px ; 
+        width: auto ;
+    }
+  }
+
+  @media screen and (max-width: 250px) {
+    .img-announceDesc  {
+        height: 175px ; 
+        width: auto ;
+    }
+  }

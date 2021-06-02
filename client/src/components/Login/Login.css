@@ -1,0 +1,88 @@
+.login-div {
+    background-color : rgba(255, 255, 255,0.5) ;
+    font-family: 'Lato', sans-serif;
+    max-width : 1100px ; 
+    height : 105vh ; 
+    margin : 0 auto 0 ; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+.login-form {
+    width : 80% ;
+    background-image: url('https://www.itl.cat/pngfile/big/42-429842_light-grey-background-wallpaper-light-grey-background-wallpaper.jpg'); 
+    background-size : cover;
+    background-repeat: no-repeat;
+    border : 1px solid black; 
+    border-radius : 2em; 
+    padding : 1em; 
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.email-div {
+    width : 97% ;
+    margin : 0.25em
+}
+
+.password-div {
+    width : 97%; 
+    margin : 0.25em
+}
+
+.btn-login {
+    float : right  ;
+    margin : 1em ; 
+    width : 20% 
+}
+
+.font-motif {
+    font-family: 'Fredoka One', cursive;
+}
+
+.error-msg {
+    color : red ; 
+    margin-left : 1em 
+}
+
+
+@media screen and (max-width: 500px) {
+    .btn-login   {
+        margin: 0.5em ;
+        width : 30% 
+    }
+    .login-form {
+        padding : 0.5em; 
+        border-radius : 1em; 
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .btn-login   {
+        margin: 0.25em ;
+        width : 40% ; 
+        padding : 0.5em; 
+    }
+    .login-form {
+        width : 95% ;
+    }
+  }
+
+  @media screen and (max-width: 240px) {
+    .btn-login   {
+        margin: 0.25em ;
+        width : 55% 
+    }
+  }
+
+  @media screen and (max-height: 375px) {
+    .login-div   {
+        margin : 20px auto 0 ;
+    }
+  }
+
+  @media screen and (max-height: 335px) {
+    .login-div   {
+        margin : 20px auto 0 ;
+    }
+  }

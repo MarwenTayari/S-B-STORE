@@ -1,0 +1,196 @@
+.title {
+    display : inline-block;
+    margin-left: 2%;
+    width : 15% ;
+}
+
+.Announce-div-ap {
+    border-radius : 1em ; 
+    font-family: 'Lato', sans-serif;
+    background-color:#b3ffd9;
+    margin : 0.5em ; 
+    font-style : italic; 
+    transition: all .5s ease 0s; 
+    box-shadow: 5px 5px 8px hsl(0, 0%, 53%) ; 
+} 
+
+.model-delete {
+    font-family: 'Lato', sans-serif; 
+    color : red ; 
+    font-style : italic ;
+    font-size : 18px;
+}
+
+.Announce-div-ap:hover {
+    transform: scale(1.03);
+}
+
+.Announce-div-unap {
+    border-radius : 1em ; 
+    font-family: 'Lato', sans-serif;
+    background-color: #ffd480;
+    margin : 0.5em ;  
+    font-style : italic; 
+    transition: all .5s ease 0s; 
+    box-shadow: 5px 5px 8px #888888 ; 
+}
+
+.Announce-div-unap:hover {
+    transform: scale(1.03);
+}
+
+.price-an {
+    display : inline-block;
+    margin-left: 2%;
+    width : 15% ;
+}
+
+.created_at {
+    display : inline-block;
+    margin-left: 2%;
+    width : 20% ;
+}
+
+.approuved-post {
+    display : inline-block;
+    margin-left: 2%;
+    width : 15% ;
+}
+
+.posts-btn {
+ margin : 0.2em 0.7em ; 
+ padding : 0.25;
+ width : 6.75em
+}
+
+.show-post {
+    color : #cccccc ; 
+    font-size :  1.5em;
+     margin : 0 0.5em ; 
+     transition: all .5s ease 0s;
+}
+
+.show-post:hover {
+    color : green ; 
+    font-size :  1.5em;
+     margin : 0 0.5em 
+}
+
+.delete-post {
+    color : #cccccc; 
+    font-size :  1.5em;
+    margin : 0 0.5em ; 
+    transition: all .5s ease 0s; 
+}
+
+.delete-post:hover {
+    color : red; 
+    font-size :  1.5em;
+    margin : 0 0.5em 
+}
+
+.img-div {
+    text-align : center
+}
+
+.uni-p {
+    display : inline-block ; 
+    margin: 0
+}
+
+.client-lastName {
+    margin : 0em
+}
+.announce-title 
+.announce-info {
+    font-family: 'Cabin', sans-serif;
+}
+
+.client-info {
+    margin-top : 1em ; 
+    font-style : italic ; 
+    font-family: 'Cabin', sans-serif;
+}
+
+.title-motif {
+    margin : 0 ; 
+    background-color : #d9d9d9; 
+}
+
+.info-ann {
+    margin-top : 1em
+}
+
+@media screen and (max-width: 860px) {
+    .price-an {
+        width : 12% ;
+    }
+ 
+    .created_at {
+        margin-bottom : 0 ; 
+    }
+
+    .approuved-post {
+        margin-bottom : 0 ; 
+    }
+
+    .price-an {
+        margin-bottom : 0 ; 
+    }
+
+    .title  {
+        margin-bottom : 0 ; 
+    }
+
+    .posts-btn {
+        margin-bottom: 0.5em ;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .Announce-div-unap {
+       font-size : 12px 
+    }
+
+    .Announce-div-ap{
+        font-size : 12px 
+    }
+
+    .posts-btn {
+        font-size : 12px 
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .created_at {
+        width : 15%  ; 
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        display : block ;
+        width : 100%  
+    }
+    .price-an {
+        display : block ;
+        width : 100%  
+    }
+    .created_at {
+        display : block ;
+        width : 100% 
+    }
+    .approuved-post {
+        display : block ;
+        width : 100% 
+    }
+    .Announce-div-unap {
+        text-align : center 
+    }
+    .Announce-div-ap {
+        text-align : center 
+    }
+    .btn-div-post {
+        width : 100% 
+    }
+}

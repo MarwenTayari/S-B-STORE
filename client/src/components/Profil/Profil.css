@@ -1,0 +1,84 @@
+.profil-div {
+    background-color : rgba(255, 255, 255,0.5) ; 
+    max-width: 1100px ; 
+    margin: 0 auto ; 
+    padding : 50px 0 0; 
+    font-family: 'Lato', sans-serif;
+    margin-top : 40px ; 
+    min-height: 100vh ; 
+    
+}
+
+.info-inchangable {
+    width : 60% ;
+    color : black ; 
+    text-align : center ; 
+    margin : 0.5em auto ; 
+    font-style : italic ;  
+    padding : 1em; 
+    background-image: url('https://www.itl.cat/pngfile/big/42-429842_light-grey-background-wallpaper-light-grey-background-wallpaper.jpg'); 
+    background-repeat: no-repeat; 
+    background-position : 50% 50% ;
+    border-radius : 2em ; 
+    text-shadow: 2px 2px white ; 
+    box-shadow: 5px 5px 8px hsl(0, 0%, 53%) ; 
+}
+
+.info-changable {
+    width : 80% ;  
+    margin : 0 auto;
+    padding : 3em 0 3em  0;
+}
+
+.label {
+    display : block ; 
+} 
+
+.input-val {
+    display : inline-block ; 
+    width : 100% ;  
+    color : red
+} 
+
+.input-div {
+    width : 95% ; 
+}
+
+.btn {
+    margin-top : 0.5em ; 
+    margin-left : 1em
+}
+
+.spinner-div-profil { 
+    width : 100% ; 
+    min-height : 80vh;
+    display : flex ; 
+    justify-content : center ; 
+    align-items : center ; 
+}
+
+@media screen and (max-width : 750px){
+    .info-inchangable  {
+        width: 70% ; 
+    }
+}
+
+@media screen and (max-width : 600px){
+    .info-inchangable  {
+        width: 85% ; 
+    }
+}
+
+@media screen and (max-width : 490px){
+    .info-inchangable  {
+        width: 100% ; 
+        margin : 0 0.5em ; 
+    }
+}
+
+@media screen and (max-width : 250px){
+    .info-inchangable  {
+        font-size : 13px 
+    }
+}
+

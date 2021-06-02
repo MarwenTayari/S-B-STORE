@@ -1,0 +1,112 @@
+.delete-btn {
+    float : right ; 
+    margin-right : 0.5em ; 
+    font-size : 1.5em ; 
+    color : #d9d9d9; 
+    transition : all 0.5s ease 
+}
+
+.see-More-btn {
+    margin-left: 0.5em ; 
+    font-size : 1.5em ; 
+}
+
+.delete-btn:hover {
+    float : right ; 
+    margin-right : 0.5em ; 
+    font-size : 1.5em ; 
+    color: #33bbff ; 
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-my-post {
+    width: 200px; 
+    height: 170px;
+    object-fit: fill;
+    padding : 0 auto ;
+}
+
+.approuved {
+    display : inline-block ; 
+    font-style : italic;
+    color : gray ; 
+    width : 70% 
+}
+
+.Status-title {
+    display : inline-block ; 
+}
+
+.cart-fav {
+    background-color : white ; 
+    width : 23% ; 
+    margin: 0.5em ; 
+    border : 1px solid rgb(179, 179, 179);
+    padding : 0.5em ; 
+    border-radius : 1em ; 
+    box-shadow: 5px 5px 8px #888888 ; 
+    transition: all .5s ease 0s;
+}
+
+.cart-fav:hover {
+    opacity: 1; 
+    transform: scale(1.05);
+    border : 1px solid black ;
+}
+
+.cartAnnounce_img {
+    width: 200px; 
+    height: 170px; 
+    object-fit: fill;
+    margin : 0.25em auto; 
+    padding : 0 auto ; 
+    transition: all .2s ease 0s;
+}
+
+@media screen and (max-width: 1200px) {
+    .cart-fav  {
+        width : 30% ;
+        margin: 0.9em ;
+    }
+  }
+
+@media screen and (max-width: 990px) {
+    .cart-fav  {
+        width : 30% ;
+        margin: 0.7em ;
+    }
+
+    .cartAnnounce_img  {
+        width: 180px; 
+        height: 180px; 
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .cart-fav {
+        width : 45% ;
+        margin: 0.7em ;
+    }
+
+    .cartAnnounce_img  {
+        width: 180px; 
+        height: 180px; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cart-fav  {
+        width : 100% ;
+        margin: 0.7em ;
+    }
+
+    .cartAnnounce_img  {
+        width: 150px; 
+        height: 150px; 
+    }
+}

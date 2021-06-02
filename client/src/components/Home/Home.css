@@ -1,0 +1,364 @@
+.Home-div {
+    min-height: 100vh;
+    margin : 0 auto ;
+    padding: 55px 0 0 ;  
+}
+
+.presentation {
+    height: 100%;
+}
+
+.animation-div {
+    height: 100% ; 
+    width : 100% ; 
+    min-height: 100vh;
+    margin : 0 0.5em ; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./img/home.jpg'); 
+    background-repeat: no-repeat;
+    background-position: 10% 80%;
+    background-size : cover ; 
+    animation : slider 25s infinite; 
+} 
+
+.intro-page {
+    font-family: 'RocknRoll One', sans-serif;
+    font-weight: 500;
+    color : #ffffcc;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    display : inline-block ; 
+}  
+
+.scroll-btn {
+    display : block ; 
+    z-index : 5 ; 
+    box-shadow: 2px 2px 8px #33bbff  ;
+}
+
+.block-animation {
+    position : absolute ; 
+    top : 22% ;
+    left : -1% ; 
+    width : 50% ; 
+    height : 20% ;
+}
+
+.scroll-btn-div {
+    display : flex ; 
+    align-items : center ; 
+    justify-content : center ; 
+}
+
+.body-animation {
+    font-family: 'Noto Serif', serif;
+    display : flex ; 
+    align-items : center ; 
+    justify-content : center ; 
+    overflow : hidden; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; 
+} 
+
+.typing {
+   color : #33bbff ; 
+   font-weight : bold ; 
+   font-size : 60px ; 
+   overflow : hidden ; 
+   white-space : nowrap ; 
+   text-shadow: 2px 2px 8px #33bbff  ;
+   animation : typing 5s steps(25) 1s infinite alternate ; 
+}
+
+.typing span {
+    color : red ; 
+}
+
+.cursor {
+    color : #6bb7dd ; 
+    font-weight : bold ; 
+    font-size : 60px ; 
+    display : block ; 
+    text-shadow: 2px 2px 8px #33bbff  ;
+    animation : cursor 0.5s linear 0s infinite ; 
+}
+
+@keyframes typing {
+    from {
+        width : 0rem ; 
+    }
+
+    to {
+        width : 48rem ; 
+    }
+}
+
+@keyframes cursor {
+    from {
+        opacity : 0 ; 
+    }
+
+    to {
+        opacity : 1 ; 
+    }
+}
+ 
+    @media screen and (max-width : 1500px){
+        .typing {
+            font-size : 50px ;} 
+
+        .cursor { 
+            font-size : 50px ; 
+            }
+            @keyframes typing {
+                from {
+                    width : 0rem ; 
+                }
+            
+                to {
+                    width : 40rem ; 
+                }
+            }
+    }
+
+@media screen and (max-width  : 1350px){
+    .animation-div {
+        background-image: url('./img/home3.jpg'); 
+        background-position: 54% 50%;
+    }
+    .scroll-btn {
+        left : 0% ; 
+        bottom : -250px ; 
+    }
+    .block-animation {
+        top : 22% ;
+        left : 26% ; 
+    }
+    @keyframes typing {
+        from {
+            width : 0rem ; 
+        }
+    
+        to {
+            width : 47rem ; 
+        }
+    }
+    .block-animation {
+        width : 55% ; 
+    }
+}
+
+@media screen and (max-width : 1200px){ 
+    
+    @keyframes typing {
+        from {
+            width : 0rem ; 
+        }
+    
+        to {
+            width : 56rem ; 
+        }
+    }
+
+    .block-animation {
+        top : 22% ;
+        left : 20% ; 
+        width : 61% ; 
+    }
+}
+
+@media screen and (max-width : 1050px){ 
+    @keyframes typing {
+        from {
+            width : 0rem ; 
+        }
+    
+        to {
+            width : 60rem ; 
+        }
+    }
+    .block-animation {
+        width : 66% ; 
+    }
+}
+
+@media screen and (max-width : 950px){ 
+    .block-animation {
+        width : 70% ; 
+    }
+}
+
+@media screen and (max-width : 850px){ 
+    @keyframes typing {
+        from {
+            width : 0rem ; 
+        }
+    
+        to {
+            width : 42rem ; 
+        }
+    }
+    .typing {
+        font-size : 40px ;} 
+
+    .cursor { 
+        font-size : 40px ; 
+        }
+        .block-animation {
+            width : 65% ; 
+        }
+}
+
+@media screen and (max-width : 780px){ 
+    @keyframes typing {
+        from {
+            width : 0rem ; 
+        }
+    
+        to {
+            width : 43rem ; 
+        }
+    }
+        .block-animation {
+            top : 22% ;
+            left : 15% ; 
+            width : 76% ; 
+        }
+}
+
+@media screen and (max-width  : 660px){
+    .scroll-btn {
+        left : 0% ; 
+        bottom : -200px ; 
+    }
+    @keyframes typing {
+        from {
+            width : 0rem ; 
+        }
+    
+        to {
+            width : 37rem ; 
+        }
+    }
+    .block-animation {
+        top : 22% ;
+        left : 15% ; 
+        width : 75% ; 
+    }
+    .typing {
+        font-size : 35px ;} 
+
+    .cursor { 
+        font-size : 35px ; 
+        }
+}
+
+@media screen and (max-width  : 590px){
+    .scroll-btn {
+        left : 0% ; 
+        bottom : -150px ; 
+    }
+    @keyframes typing {
+        from {
+            width : 0rem ; 
+        }
+    
+        to {
+            width : 29rem ; 
+        }
+    }
+    .block-animation { 
+        top : 22% ;
+        left : 2% ; 
+        width : 100% ; 
+    }
+}
+
+@media screen and (max-width  : 480px){
+    .scroll-btn {
+        left : 0% ; 
+        bottom : -130px ; 
+    }
+    .typing {
+        font-size : 32px ;} 
+
+    .cursor { 
+        font-size : 32px ; 
+        }
+}
+
+@media screen and (max-width  : 410px){
+    .scroll-btn {
+        left : 0% ; 
+        bottom : -100px ; 
+    }
+    .typing {
+        font-size : 28px ;} 
+
+    .cursor { 
+        font-size : 28px ; 
+        }
+}
+
+@media screen and (max-width : 340px){
+    .scroll-btn {
+        left : 0% ; 
+        bottom : -80px ; 
+    }
+    .typing {
+        font-size : 22px ;} 
+
+    .cursor { 
+        font-size : 22px ; 
+        }
+}
+
+@media screen and (max-width : 260px){
+    .typing {
+        font-size : 18px ;} 
+
+    .cursor { 
+        font-size : 18px ; 
+        }
+        @keyframes typing {
+            from {
+                width : 0rem ; 
+            }
+
+            to {
+                width : 18rem ; 
+            }
+        }
+}
+
+@media screen and (max-width : 230px){
+        @keyframes typing {
+            from {
+                width : 0rem ; 
+            }
+
+            to {
+                width : 18rem ; 
+            }
+        }
+
+        .typing {
+            font-size : 16px ;} 
+    
+        .cursor { 
+            font-size : 16px ; 
+            }
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+.comment-div-user {
+    box-shadow: 5px 5px 8px hsl(0, 0%, 53%) ; 
+    background-color : rgb(204, 255, 255) ; 
+}
+
+.comment-span {
+    font-style : bold ; 
+}

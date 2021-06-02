@@ -1,0 +1,142 @@
+.cart {
+    width : 23% ;
+    background-color : white ; 
+    margin: 0.6em ; 
+    border : 1px solid rgb(179, 179, 179);
+    padding : 0.5em ; 
+    border-radius : 1em ; 
+    box-shadow: 5px 5px 8px #888888 ; 
+    transition: all .5s ease 0s;
+}
+
+.cart-user-blocked {
+    width : 23% ;
+    background-color : white ; 
+    margin: 0.6em ; 
+    border : 1px solid rgb(179, 179, 179);
+    padding : 0.5em ; 
+    border-radius : 1em ; 
+    box-shadow: 5px 5px 8px #888888 ;
+    opacity : 0.6;  
+    transition: all .5s ease 0s;
+}
+
+.cart:hover {
+    opacity: 1; 
+    transform: scale(1.05);
+    border : 1px solid black ;
+}
+
+.info-btn-div {
+    margin : 0em 0.5em ;
+    width : 95% ;
+} 
+
+.approuvedCart_img {
+    width: 200px; 
+    height: 170px;  
+    object-fit: fill;
+    margin : 0.25em auto; 
+    padding : 0 auto ;
+    transition: all .2s ease 0s;
+}
+
+.title-size {
+    font-weight :  600;
+}
+
+.div-img {
+    margin : 0 auto ; 
+    text-align : center ;
+}
+
+.btn-div {
+    margin : 0.5em; 
+}
+
+.price{
+    display: inline-block
+}
+
+.location {
+    float : right 
+}
+
+.Fav-btn {
+    float : right ; 
+}
+
+.fav-heart {
+    float : right ;
+    font-size : 1.5em ; 
+    color : #cccccc ; 
+    transition : all 0.5s ease
+}
+
+.fav-heart:hover {
+    float : right ;
+    font-size : 1.5em ; 
+    color: #33bbff  ; 
+    transition : all 0.5s ease
+}
+
+.fav-heart-red {
+    float : right ;
+    font-size : 1.5em ; 
+    color: red ; 
+    transition : all 0.5s ease
+}
+
+.eye-logo {
+    font-size : 1.5em ; 
+    color :  #cccccc ; 
+    transition : all 0.5s ease
+}
+
+.eye-logo:hover {
+    font-size : 1.5em ; 
+    color :  #33bbff 
+}
+
+@media screen and (max-width: 1200px) {
+    .cart  {
+        width : 30% ;
+        margin: 0.9em ;
+    }
+  }
+
+@media screen and (max-width: 990px) {
+    .cart  {
+        width : 30% ;
+        margin: 0.7em ;
+    }
+
+    .approuvedCart_img {
+        width: 180px; 
+        height: 180px; 
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .cart  {
+        width : 45% ;
+        margin: 0.7em ;
+    }
+
+    .approuvedCart_img {
+        width: 180px; 
+        height: 180px; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cart  {
+        width : 100% ;
+        margin: 0.7em ;
+    }
+
+    .approuvedCart_img {
+        width: 150px; 
+        height: 150px; 
+    }
+}

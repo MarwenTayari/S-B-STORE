@@ -1,0 +1,16 @@
+.container {
+    display : flex ; 
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border-radius : 2em ;
+    padding : 1em;
+    min-height : 700px
+}
+
+.spinner-div {
+    width : 100% ; 
+    min-height : 700px  ; 
+    display : flex ; 
+    justify-content : center ; 
+    align-items : center ; 
+}

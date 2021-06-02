@@ -1,0 +1,168 @@
+.user-div-blocked {
+    font-family: 'Lato', sans-serif;
+    border-radius : 1em ;
+    background-color: #ff9999 ; 
+    margin : 0.5em; 
+    font-style : italic ;
+    box-shadow: 5px 5px 8px hsl(0, 0%, 53%) ;  
+    transition: all .5s ease 0s;
+    }
+
+    .user-div-blocked:hover {
+        transform: scale(1.03);
+    }
+    
+    .user-div-active {
+    font-family: 'Lato', sans-serif;
+    border-radius : 1em ;
+    background-color: #b3ffd9 ; 
+    margin : 0.5em ; 
+    font-style : italic ;
+    box-shadow: 5px 5px 8px hsl(0, 0%, 53%) ;  
+    transition: all .5s ease 0s;
+    }
+
+    .user-div-active:hover {
+        transform: scale(1.03);
+    }
+
+.firstname {
+    margin-left: 2%;
+    width : 15% ; 
+    display : inline-block
+}
+
+.lastname {
+    margin-left: 2%;
+    width : 15% ; 
+    display : inline-block
+}
+
+.email {
+    margin-left: 2%;
+    width : 30% ; 
+    display : inline-block
+}
+
+.status {
+    margin-left: 2%;
+    width : 12% ; 
+    display : inline-block
+}
+
+.block-btn {
+    padding-right: 0.2em;
+    width : 15%;
+    margin-right: 0.75em ;
+    margin-bottom : 0.5em
+}
+
+
+@media screen and (max-width: 1080px) {
+    .form-search-users {
+        width : 50%
+    }
+    .form-filter-users { 
+        width : 50% ; 
+    }
+  }
+
+
+@media screen and (max-width: 970px) {
+    .status {
+        width : 18% ; 
+    }
+    .block-btn {
+        width : 10%
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    .block-btn {
+        width : 11% ; 
+        margin : 0.25em ; 
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .block-btn {
+        width : 12% ; 
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .firstname {
+        margin-left: 1%;
+        width : 14% ; 
+    }
+
+    .lastname {
+        margin-left: 1%;
+        width : 14% ; 
+    }
+
+    .email {
+        margin-left: 1%;
+        width : 29% ; 
+    }
+
+    .block-btn {
+        width : 14% ; 
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .user-div-active,
+    .user-div-blocked {
+        font-size: 14px 
+    }
+    .block-btn {
+        font-size: 14px 
+    }
+  }
+
+  @media screen and (max-width: 580px) {
+    .firstname {
+      display : block ;
+      width : 100%  
+    } 
+    .lastname {
+        display : block ;  
+        width : 100%  
+    }
+    .email {
+        display : block ; 
+        width : 100%  
+    }
+    .status {
+        display : block ; 
+        width : 100%  
+    }
+    .user-div-active{
+        text-align : center ; 
+    }
+    .user-div-blocked{
+        text-align : center ; 
+    }
+    .block-btn {
+        width : 20% 
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .block-btn {
+        width : 25% 
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+  

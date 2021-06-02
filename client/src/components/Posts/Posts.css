@@ -1,0 +1,129 @@
+.posts-div {
+    background-color : rgba(255, 255, 255,0.5) ;
+    min-height : 100vh ; 
+    font-family: 'Lato', sans-serif;
+    margin: 55px auto 0; 
+    padding-top : 1em ;  
+    max-width : 1100px ;
+}
+
+.posts-title {
+    text-align: center;
+}
+
+.titles {
+    background-color:#d9d9d9;
+    margin : 0.5em
+}
+
+.title-announce {
+    display : inline-block;
+    margin-left: 2%;
+    width : 15% ;
+}
+
+.price-announce {
+    display : inline-block; 
+    margin-left: 2%;
+    width : 15% ;
+}
+
+.description-announce {
+    display : inline-block;  
+    margin-left: 2%;
+    width : 20% ;
+}
+
+.status-announce {
+    display : inline-block; 
+    margin-left: 2%;
+    width : 15% ;
+}
+
+  @media screen and (max-width: 600px) {
+    #inputPassword5 {
+        width : 70% ; 
+    }
+
+    #filter-posts-select{
+        width : 40% ; 
+        margin-right : 1rem ; 
+    }
+  }
+
+  @media screen and (max-width: 860px) {
+    .status-announce {
+        width : 12% 
+    }
+
+    .price-announce { 
+        width : 12%
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .titles {
+        font-size : 12px 
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .description-announce {
+        width : 15% ;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .form-filter-posts {
+        width : 100% ;
+    }
+    #filter-posts-select {
+        width : 60% ;
+    }
+    .form-search-posts {
+        width : 100% 
+    }
+    #input-password5 {
+        width : 60% 
+    }
+    .titles {
+        visibility : hidden ; 
+        position : absolute 
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #inputPassword5 {
+        margin-left : 0.5em ;
+        width : 70% 
+    }
+    #filter-posts-select {
+        width : 53% ;
+        margin-right : 0.1em 
+    }
+    .form-filter-posts {
+        padding-left : 0em ; 
+    }
+    #btn-filter-posts  {
+        margin-left : 0.5em ; 
+    }
+    #btn-search-posts {
+        margin-left : 0.5em ;
+    }
+    #label-status {
+        margin-left : 0.5em 
+    }
+}
+
+
+@media screen and (max-width: 330px) {
+    #inputPassword5 {
+        width : 98% ; 
+        margin-top : 0.25em ; 
+        margin-right : 0.5em 
+    }
+    #filter-posts-select {
+        width : 62% ; 
+        margin-top : 0.25em ; 
+    }
+}
