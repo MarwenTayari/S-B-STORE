@@ -30,7 +30,7 @@ router.post('/image', upload.single("avatar"), (req,res)=>{
 */
 //Add new Announce 
 router.post('/' , [authMiddleware, upload.single('avatar')] , (req,res)=> {
-    let path = req.protocol + "://" + req.hostname + ":" /*+ 5000 */ + "/uploads/" + req.file.filename ; 
+    let path = req.protocol + "://" + req.hostname + /* ":" + 5000 */ + "/uploads/" + req.file.filename ; 
     let myBody = JSON.parse(req.body.info)
     let newAnnounce = new Announce({...myBody, owner : req.userId, avatar: path})
         newAnnounce.save().then(post => res.status(201).send(post))
