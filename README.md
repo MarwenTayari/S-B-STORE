@@ -8,4 +8,4 @@ Getting Started : environement : Node v14.17.6
 
 Installing : npm install
 
-Runing : npm run dev
+Runing : npm run dev 
